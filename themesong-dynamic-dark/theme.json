@@ -1,0 +1,14 @@
+{
+  "name": "ThemeSong Dynamic (Dark)",
+  "description": "Dark surfaces tinted with the album art's own colour.",
+  "author": "ThemeSong by Kristoffer Troncoso, ported to pear-desktop",
+  "palette": {
+    "saturation": "0.8",
+    "lightness-navbar": "12",
+    "lightness-playerpage": "16",
+    "lightness-playerbar": "15",
+    "lightness-body": "10"
+  },
+  "css": "style.css",
+  "js": "theme.js"
+}

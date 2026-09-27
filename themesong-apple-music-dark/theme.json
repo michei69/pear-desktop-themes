@@ -1,0 +1,10 @@
+{
+  "name": "ThemeSong Apple Music (Dark)",
+  "description": "Apple Music chrome: album-tinted gradients, red accent.",
+  "author": "ThemeSong by Kristoffer Troncoso, ported to pear-desktop",
+  "palette": {
+    "accent": "#ff273f"
+  },
+  "css": "style.css",
+  "js": "theme.js"
+}

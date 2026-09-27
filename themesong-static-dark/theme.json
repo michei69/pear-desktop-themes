@@ -1,0 +1,14 @@
+{
+  "name": "ThemeSong Static (Dark)",
+  "description": "One fixed colour, one brightness per surface.",
+  "author": "ThemeSong by Kristoffer Troncoso, ported to pear-desktop",
+  "palette": {
+    "hue": "216",
+    "saturation": "70",
+    "lightness-navbar": "18",
+    "lightness-playerpage": "24",
+    "lightness-playerbar": "22",
+    "lightness-body": "14"
+  },
+  "css": "style.css"
+}
