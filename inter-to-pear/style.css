@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Force re-define the CSS variables YouTube Music uses internally */
+:root, html, body, ytmusic-app {
+    --ytmusic-font-name: 'Inter', sans-serif !important;
+    --font-family: 'Inter', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Intercept and re-route common text elements */
+ytmusic-text-renderer,
+yt-formatted-string,
+.title,
+.subtitle,
+#title,
+#subtitle,
+span,
+a,
+p,
+div {
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Explicit exclusion to ensure navigation system retains native properties */
+ytmusic-nav-bar,
+ytmusic-nav-bar *,
+#nav-bar,
+#nav-bar-background,
+ytmusic-guide-renderer,
+ytmusic-guide-renderer *,
+.nav-button,
+[class*="nav"] {
+    font-family: inherit !important;
+}
