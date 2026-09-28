@@ -6,7 +6,7 @@ It combines all four versions of the theme by utilizing [Presets](https://github
 
 # Gallery
 
-### Default - Mocha
+### Mocha
 
 ![](../.images/Catpuccin_Default.png)
 
