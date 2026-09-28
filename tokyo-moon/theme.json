@@ -1,0 +1,15 @@
+{
+  "name": "Tokyo Night Moon",
+  "description": "A clean, dark theme celebrating the lights of downtown Tokyo at night. Moon variant (bluer).",
+  "author": "folke (tokyonight.nvim), ported to pear-desktop",
+  "palette": {
+    "accent": "#82aaff",
+    "background": "#222436",
+    "surface": "#1e2030",
+    "text": "#c8d3f5",
+    "saturation": "0.8",
+    "lightness-accent": "55"
+  },
+  "css": "style.css",
+  "js": "theme.js"
+}
