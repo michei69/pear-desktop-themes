@@ -1,0 +1,41 @@
+{
+  "name": "Tokyo Night",
+  "description": "A clean, dark theme celebrating the lights of downtown Tokyo at night. Classic variant.",
+  "author": "folke (tokyonight.nvim), ported to pear-desktop",
+  "palette": {
+    "accent": "#7aa2f7",
+    "background": "#1a1b26",
+    "surface": "#16161e",
+    "text": "#c0caf5",
+    "saturation": "0.8",
+    "lightness-accent": "55"
+  },
+  "presets": {
+    "storm": {
+      "accent": "#7aa2f7",
+      "background": "#24283b",
+      "surface": "#1f2335",
+      "text": "#c0caf5",
+      "saturation": "0.8",
+      "lightness-accent": "55"
+    },
+    "moon": {
+      "accent": "#82aaff",
+      "background": "#222436",
+      "surface": "#1e2030",
+      "text": "#c8d3f5",
+      "saturation": "0.8",
+      "lightness-accent": "55"
+    },
+    "day": {
+      "accent": "#2e7de9",
+      "background": "#e1e2e7",
+      "surface": "#d0d5e3",
+      "text": "#3760bf",
+      "saturation": "0.8",
+      "lightness-accent": "55"
+    }
+  },
+  "css": "style.css",
+  "js": "theme.js"
+}
