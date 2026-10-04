@@ -19,8 +19,8 @@
   --pear-theme-text-dim: color-mix(in srgb, var(--pear-theme-text) 70%, black);
 }
 
-/* Base colors */
-:root {
+/* Base colors - use html for higher specificity than :root */
+html {
   --ytmusic-color-black1: var(--pear-theme-surface) !important;
   --ytmusic-color-black2: var(--pear-theme-surface) !important;
   --ytmusic-color-black3: var(--pear-theme-background) !important;
@@ -56,7 +56,7 @@ ytmusic-dialog {
 }
 
 /* Text color */
-:root {
+html {
   --yt-spec-text-primary: var(--pear-theme-text) !important;
   --yt-spec-text-secondary: var(--pear-theme-text) !important;
   --ytmusic-text-primary: var(--pear-theme-text) !important;
@@ -83,7 +83,7 @@ ytmusic-app-layout {
 }
 
 /* Accent color */
-:root {
+html {
   --paper-progress-active-color: var(--pear-theme-accent) !important;
   --yt-sys-color-baseline--call-to-action: var(--pear-theme-accent) !important;
   --icon-color: var(--pear-theme-accent) !important;

@@ -4,8 +4,8 @@
   "author": "folke (tokyonight.nvim), ported to pear-desktop",
   "palette": {
     "accent": "#7aa2f7",
-    "background": "#1a1b26",
-    "surface": "#16161e",
+    "background": "#1a1b2e",
+    "surface": "#202138",
     "text": "#c0caf5",
     "saturation": "0.8",
     "lightness-accent": "55"
