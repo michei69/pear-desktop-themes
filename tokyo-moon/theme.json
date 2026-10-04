@@ -6,7 +6,11 @@
     "accent": "#9d7cd8",
     "background": "#1a1b2e",
     "surface": "#1e1f2e",
+<<<<<<< HEAD
     "text": "#b8b5d6",
+=======
+    "text": "#c8d3f5",
+>>>>>>> 7a259baf323e64d450e54e7a0f0a1621a58c1055
     "saturation": "0.75",
     "lightness-accent": "55"
   },
