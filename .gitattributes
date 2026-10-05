@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.json text
+*.css text
+*.js text
+*.md text
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.webp binary
